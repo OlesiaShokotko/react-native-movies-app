@@ -1,5 +1,3 @@
-import "dotenv/config";
-
 export default {
   expo: {
     name: "rn-movie-app",
@@ -12,6 +10,7 @@ export default {
     newArchEnabled: true,
     ios: {
       supportsTablet: true,
+      bundleIdentifier: "com.olesiashokotko.rnmovieapp",
     },
     android: {
       adaptiveIcon: {
@@ -24,6 +23,13 @@ export default {
       output: "static",
       favicon: "./assets/images/logo.png",
     },
+    updates: {
+      url: "https://u.expo.dev/4de46994-9a41-41ad-9deb-d5cc2f599a4a",
+    },
+    runtimeVersion: {
+      policy: "appVersion",
+    },
+
     plugins: [
       "expo-router",
       [
@@ -40,14 +46,16 @@ export default {
       typedRoutes: true,
     },
     extra: {
-      EXPO_PUBLIC_MOVIE_API_KEY:
-        process.env.EXPO_PUBLIC_MOVIE_API_KEY,
+      EXPO_PUBLIC_MOVIE_API_KEY: process.env.EXPO_PUBLIC_MOVIE_API_KEY,
       EXPO_PUBLIC_APPWRITE_DATABASE_ID:
         process.env.EXPO_PUBLIC_APPWRITE_DATABASE_ID,
       EXPO_PUBLIC_APPWRITE_COLLECTION_ID:
         process.env.EXPO_PUBLIC_APPWRITE_COLLECTION_ID,
       EXPO_PUBLIC_APPWRITE_PROJECT_ID:
         process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
+      eas: {
+        projectId: "4de46994-9a41-41ad-9deb-d5cc2f599a4a",
+      },
     },
   },
 };
