@@ -51,9 +51,7 @@ Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creat
 
 ## <a name="live-demo">📱 Live Demo</a>
 
-You can try out the app on your mobile device using Expo Go:
-
-<p>
+You can try out the app on your mobile device using Expo Go: <p>
   🔗 <a href="https://expo.dev/preview/update?message=Update&updateRuntimeVersion=1.0.0&createdAt=2025-06-05T12%3A59%3A35.693Z&slug=exp&projectId=4de46994-9a41-41ad-9deb-d5cc2f599a4a&group=c5ea6620-9de8-4b06-9c46-a24dc28e1f4b" target="_blank">Open with Expo</a>
   <em>(or scan the QR code below)</em>
 </p>
@@ -62,7 +60,7 @@ You can try out the app on your mobile device using Expo Go:
 
 <p>
   <strong>To view the app:</strong><br>
-  1. Download <strong>the Expo Go</strong> app from<a href="https://apps.apple.com/app/expo-go/id982107779" target="_blank">the App Store</a> or <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">Google Play</a>.<br>
+  1. Download the <strong>Expo Go</strong> app from <a href="https://apps.apple.com/app/expo-go/id982107779" target="_blank">the App Store</a> or <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">Google Play</a>.<br>
   2. Open <strong>Expo Go</strong> and scan the QR code.<br>
   3. The app will load on your device instantly.
 </p>
